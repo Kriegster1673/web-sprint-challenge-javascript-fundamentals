@@ -115,9 +115,8 @@ return displayNames.map((element, index) => `name: ${element}, scientific: ${sci
     * The consume function should return the invocation of cb, passing a and b into cb as arguments
   */
 
-  function consume(a,b,c){
-    const cb = (a,b) => {return a + b}
-    return cb
+  function consume(a,b,callback){
+   return callback(a,b)
   }
  
   
