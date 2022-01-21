@@ -74,8 +74,10 @@ return displayNames.map((element, index) => `name: ${element}, scientific: ${sci
   For example: ['jackal, asiatic', .....]
   */
 
-  function lowerCaseNames(/*Your Code Here*/){
-    /*Your Code Here*/
+  function lowerCaseNames(array){
+    let names = [];
+    array.forEach(element => names.push(element.animal_name))
+    return names.map(element => element.toLowerCase())
   }
   
   
