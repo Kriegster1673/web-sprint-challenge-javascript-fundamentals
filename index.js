@@ -86,8 +86,9 @@ return displayNames.map((element, index) => `name: ${element}, scientific: ${sci
   Using lowPopulationAnimals use .filter() to create a new array of objects which contains only the animals with a population of less than 5.
   */
 
-  function lowPopulationAnimals(/*Your Code Here*/){
-    /*Your Code Here*/
+  function lowPopulationAnimals(array){
+    let lowPopulation = array.filter(elements => elements.population < 5)
+    return lowPopulation
   }
   
 
