@@ -25,12 +25,19 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read.
 
 1. Explain the differences between `.map`, `.reduce` and `.filter` and describe a use case for each. 
+    ".map" creates a new array from the results of the function inside of it affecting every element in of it. It's useful for when you need a modified version of every element inside of an array without a for loop. 
+    ".reduce" adds everything in the array then divides it by the length of the array. It's useful when you need the average of an array. 
+    ".filter" creates a new array of all the elements that pass the test given. It's useful when you only need certain items from an array
 
 2. Explain the difference between a callback and a higher order function.
+    callback function- A function used as an argument in another function
+    Higher order function- A function that returns a function
 
 3. Explain what a closure is.
+    when a inside of another function uses the outer function
 
 4. Describe the four principles of the 'this' keyword.
+    
 
 5. Why do we need super() in an extended class?
 
